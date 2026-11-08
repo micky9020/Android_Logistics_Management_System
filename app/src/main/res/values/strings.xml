@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Configurar el nombre de la aplicación -->
+
+<resources>
+
+    <!-- Nombre comercial -->
+    <string name="app_name">LOGISTICS</string>
+
+    <!-- Eslogan institucional -->
+    <string name="app_slogan">Smart Logistics</string>
+
+</resources>

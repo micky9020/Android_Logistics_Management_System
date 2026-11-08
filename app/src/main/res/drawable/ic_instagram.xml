@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Fondo magenta -->
+    <path
+        android:fillColor="#C13584"
+        android:pathData="M14,2 L34,2 C40.63,2 46,7.37 46,14 L46,34 C46,40.63 40.63,46 34,46 L14,46 C7.37,46 2,40.63 2,34 L2,14 C2,7.37 7.37,2 14,2 Z"/>
+
+    <!-- Marco de cámara -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M15,10 L33,10 C36.31,10 39,12.69 39,16 L39,32 C39,35.31 36.31,38 33,38 L15,38 C11.69,38 9,35.31 9,32 L9,16 C9,12.69 11.69,10 15,10 Z"/>
+
+    <!-- Lente -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M24,16 C19.58,16 16,19.58 16,24 C16,28.42 19.58,32 24,32 C28.42,32 32,28.42 32,24 C32,19.58 28.42,16 24,16 Z"/>
+
+    <!-- Flash -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33.5,12 C34.88,12 36,13.12 36,14.5 C36,15.88 34.88,17 33.5,17 C32.12,17 31,15.88 31,14.5 C31,13.12 32.12,12 33.5,12 Z"/>
+
+</vector>

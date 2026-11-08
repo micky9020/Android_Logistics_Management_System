@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- LOGISTICS | Login corporativo premium metálico -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    android:fillViewport="true"
+    android:clipToPadding="false"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="20dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"/>
+
+        <!-- LOGO -->
+        <TextView
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:background="@drawable/bg_logo"
+            android:gravity="center"
+            android:text="L"
+            android:textColor="@color/white"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:elevation="7dp"/>
+
+        <!-- Nombre de aplicación -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/app_name"
+            android:textColor="@color/burgundy"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.10"
+            android:fontFamily="sans"/>
+
+        <!-- Eslogan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/app_slogan"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:letterSpacing="0.08"
+            android:fontFamily="sans"/>
+
+        <!-- Línea decorativa -->
+        <View
+            android:layout_width="54dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="13dp"
+            android:background="#C5A46D"/>
+
+        <!-- Contacto WhatsApp -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingStart="13dp"
+            android:paddingEnd="15dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/bg_glass_card"
+            android:elevation="4dp">
+
+            <ImageView
+                android:id="@+id/ivWhatsappContact"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/ic_whatsapp"
+                android:contentDescription="WhatsApp"
+                android:scaleType="fitCenter"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/tvWhatsappPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="+51 949698978"
+                android:textColor="@color/burgundy"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:padding="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Tarjeta principal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_glass_card"
+            android:elevation="7dp"
+            android:orientation="vertical"
+            android:padding="22dp">
+
+            <!-- Encabezado -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido"
+                android:textColor="@color/burgundy"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="sans"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="22dp"
+                android:text="Ingresa tus credenciales para continuar."
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"/>
+
+            <!-- DNI -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilDni"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="DNI (8 dígitos)"
+                app:boxCornerRadiusTopStart="14dp"
+                app:boxCornerRadiusTopEnd="14dp"
+                app:boxCornerRadiusBottomStart="14dp"
+                app:boxCornerRadiusBottomEnd="14dp"
+                app:boxStrokeColor="@color/burgundy">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etDni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Contraseña -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilPassword"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:hint="Contraseña"
+                app:endIconMode="password_toggle"
+                app:boxCornerRadiusTopStart="14dp"
+                app:boxCornerRadiusTopEnd="14dp"
+                app:boxCornerRadiusBottomStart="14dp"
+                app:boxCornerRadiusBottomEnd="14dp"
+                app:boxStrokeColor="@color/burgundy">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:imeOptions="actionDone"
+                    android:importantForAutofill="no"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Recuperación de contraseña -->
+            <TextView
+                android:id="@+id/tvForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:padding="7dp"
+                android:text="¿Olvidaste tu contraseña?"
+                android:textColor="@color/burgundy"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"/>
+
+            <!-- Aceptación obligatoria de términos y condiciones -->
+            <CheckBox
+                android:id="@+id/cbTermsAccepted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:buttonTint="@color/burgundy"
+                android:text="He leído y acepto los Términos y Condiciones de Uso"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:padding="5dp"/>
+
+            <!-- Acceso al documento completo -->
+            <TextView
+                android:id="@+id/tvTermsConditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="9dp"
+                android:text="LEER TÉRMINOS Y CONDICIONES DE USO"
+                android:textColor="@color/burgundy"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"/>
+
+            <!-- Botón ingresar: acabado metálico configurado en Java -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="15dp"
+                android:text="INGRESAR"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:letterSpacing="0.08"
+                android:stateListAnimator="@null"
+                app:backgroundTint="@color/burgundy"
+                app:cornerRadius="14dp"
+                app:rippleColor="#80FFFFFF"
+                app:elevation="3dp"/>
+
+            <!-- Crear cuenta -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:gravity="center"
+                android:text="¿No tienes cuenta?"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tvCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="CREAR USUARIO"
+                android:textColor="@color/burgundy"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.04"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"/>
+
+            <!-- Separador -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginBottom="16dp"
+                android:background="#B8A99A"/>
+
+            <!-- Redes sociales -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ENCUÉNTRANOS EN REDES SOCIALES"
+                android:textColor="@color/text_secondary"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.04"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!-- WhatsApp -->
+                <ImageView
+                    android:id="@+id/ivWhatsappSocial"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="6dp"
+                    android:padding="7dp"
+                    android:background="@drawable/bg_glass_card"
+                    android:elevation="3dp"
+                    android:src="@drawable/ic_whatsapp"
+                    android:contentDescription="WhatsApp"
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"/>
+
+                <!-- Facebook -->
+                <ImageView
+                    android:id="@+id/ivFacebook"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="6dp"
+                    android:padding="7dp"
+                    android:background="@drawable/bg_glass_card"
+                    android:elevation="3dp"
+                    android:src="@drawable/ic_facebook"
+                    android:contentDescription="Facebook"
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"/>
+
+                <!-- Instagram -->
+                <ImageView
+                    android:id="@+id/ivInstagram"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="6dp"
+                    android:padding="7dp"
+                    android:background="@drawable/bg_glass_card"
+                    android:elevation="3dp"
+                    android:src="@drawable/ic_instagram"
+                    android:contentDescription="Instagram"
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"/>
+
+                <!-- TikTok -->
+                <ImageView
+                    android:id="@+id/ivTikTok"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="6dp"
+                    android:padding="7dp"
+                    android:background="@drawable/bg_glass_card"
+                    android:elevation="3dp"
+                    android:src="@drawable/ic_tiktok"
+                    android:contentDescription="TikTok"
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"/>
+
+                <!-- YouTube -->
+                <ImageView
+                    android:id="@+id/ivYouTube"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="6dp"
+                    android:padding="7dp"
+                    android:background="@drawable/bg_glass_card"
+                    android:elevation="3dp"
+                    android:src="@drawable/ic_youtube"
+                    android:contentDescription="YouTube"
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Pie de página -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="12dp"
+            android:text="LOGISTICS | SMART LOGISTICS | v1.0"
+            android:textColor="@color/text_secondary"
+            android:textSize="10sp"
+            android:letterSpacing="0.03"/>
+
+    </LinearLayout>
+
+</ScrollView>

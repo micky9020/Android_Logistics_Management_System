@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- LOGISTICS | Tarjeta corporativa premium -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Fondo champagne suave -->
+    <gradient
+        android:type="linear"
+        android:angle="270"
+        android:startColor="#FFFFFDF8"
+        android:centerColor="#FFF5EBDD"
+        android:endColor="#FFE8D5AD"/>
+
+    <!-- Borde dorado biselado -->
+    <stroke
+        android:width="1.5dp"
+        android:color="#FFC5A46D"/>
+
+    <!-- Esquinas elegantes -->
+    <corners android:radius="22dp"/>
+
+    <!-- Espaciado interior -->
+    <padding
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp"/>
+
+</shape>

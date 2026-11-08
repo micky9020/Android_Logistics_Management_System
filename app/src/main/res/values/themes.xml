@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema principal de LOGISTICS -->
+    <style name="Base.Theme.Logistics"
+        parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Color principal institucional -->
+        <item name="colorPrimary">@color/burgundy</item>
+
+        <!-- Color de contraste -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Color secundario -->
+        <item name="colorSecondary">@color/burgundy_dark</item>
+
+        <!-- Fondo general -->
+        <item name="android:colorBackground">@color/cream</item>
+
+        <!-- Color de las superficies -->
+        <item name="colorSurface">@color/white</item>
+
+        <!-- Color del texto -->
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Barra de estado -->
+        <item name="android:statusBarColor">@color/cream</item>
+
+        <!-- Iconos oscuros en la barra de estado -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Barra de navegación inferior -->
+        <item name="android:navigationBarColor">@color/cream</item>
+
+        <!-- Evita que el contenido se extienda detrás
+             de las barras del sistema -->
+        <!-- <item name="android:windowLightNavigationBar">true</item> -->
+
+        <!-- Color de selección -->
+        <item name="colorControlActivated">@color/burgundy</item>
+
+    </style>
+
+    <!-- Tema definitivo de la aplicación -->
+    <style name="Theme.Logistics"
+        parent="Base.Theme.Logistics" />
+
+</resources>

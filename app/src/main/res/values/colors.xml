@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- LOGISTICS | Paleta corporativa premium -->
+
+<resources>
+
+    <!-- Fondo principal -->
+    <color name="cream">#F5EBDD</color>
+
+    <!-- Colores institucionales -->
+    <color name="burgundy">#70243B</color>
+    <color name="burgundy_dark">#50182B</color>
+
+    <!-- Metálicos corporativos -->
+    <color name="gold">#C5A46D</color>
+    <color name="champagne">#E8D5AD</color>
+    <color name="metallic_white">#FFFDF8</color>
+    <color name="metallic_silver">#D9DDE0</color>
+    <color name="metallic_gray">#AEB4B9</color>
+    <color name="metallic_dark">#747B82</color>
+
+    <!-- Superficies -->
+    <color name="white">#FFFFFF</color>
+    <color name="surface_cream">#F8F3EA</color>
+
+    <!-- Textos -->
+    <color name="text_primary">#292929</color>
+    <color name="text_secondary">#77716D</color>
+
+    <!-- Estados -->
+    <color name="success">#287A4B</color>
+    <color name="error">#B3261E</color>
+
+</resources>
