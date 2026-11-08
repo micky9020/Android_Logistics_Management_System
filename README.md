@@ -1,282 +1,282 @@
-# \# LOGISTICS
+\# LOGISTICS
 
-# \### Android Logistics Management System
+\### Android Logistics Management System
 
-# 
 
-# \*\*Sistema integral de gestión de operaciones logísticas desarrollado para dispositivos Android.\*\*
 
-# 
+\*\*Sistema integral de gestión de operaciones logísticas desarrollado para dispositivos Android.\*\*
 
-# LOGISTICS es una aplicación móvil orientada a optimizar y digitalizar los procesos de gestión logística, administración de almacenes y control de operaciones. Está desarrollada en Java para Android, utilizando SQLite como sistema de almacenamiento local.
 
-# 
 
-# Su arquitectura permite trabajar sin conexión a Internet, manteniendo la información almacenada directamente en el dispositivo.
+LOGISTICS es una aplicación móvil orientada a optimizar y digitalizar los procesos de gestión logística, administración de almacenes y control de operaciones. Está desarrollada en Java para Android, utilizando SQLite como sistema de almacenamiento local.
 
-# 
 
-# \---
 
-# 
+Su arquitectura permite trabajar sin conexión a Internet, manteniendo la información almacenada directamente en el dispositivo.
 
-# \## 1. Descripción del proyecto
 
-# 
 
-# LOGISTICS integra funcionalidades orientadas a la gestión de operaciones logísticas mediante una interfaz móvil de diseño corporativo.
+\---
 
-# 
 
-# El proyecto busca facilitar el control de inventarios, movimientos de almacén, abastecimiento y distribución, proporcionando herramientas digitales para mejorar la trazabilidad y eficiencia operativa.
 
-# 
+\## 1. Descripción del proyecto
 
-# \## 2. Funcionalidades principales
 
-# 
 
-# \### Gestión de almacenes e inventarios
+LOGISTICS integra funcionalidades orientadas a la gestión de operaciones logísticas mediante una interfaz móvil de diseño corporativo.
 
-# \- Administración de inventarios.
 
-# \- Consulta y control de existencias.
 
-# \- Registro de operaciones de almacén.
+El proyecto busca facilitar el control de inventarios, movimientos de almacén, abastecimiento y distribución, proporcionando herramientas digitales para mejorar la trazabilidad y eficiencia operativa.
 
-# \- Control de movimientos de productos.
 
-# 
 
-# \### Picking \& Packing
+\## 2. Funcionalidades principales
 
-# \- Gestión de operaciones de picking.
 
-# \- Procesos de preparación de pedidos.
 
-# \- Gestión de packing.
+\### Gestión de almacenes e inventarios
 
-# 
+\- Administración de inventarios.
 
-# \### Compras y abastecimiento
+\- Consulta y control de existencias.
 
-# \- Gestión de procesos de compras.
+\- Registro de operaciones de almacén.
 
-# \- Control de abastecimiento.
+\- Control de movimientos de productos.
 
-# \- Organización de información logística.
 
-# 
 
-# \### Despachos y distribución
+\### Picking \& Packing
 
-# \- Gestión de despachos.
+\- Gestión de operaciones de picking.
 
-# \- Seguimiento de operaciones de distribución.
+\- Procesos de preparación de pedidos.
 
-# \- Control de información de transporte.
+\- Gestión de packing.
 
-# 
 
-# \### Gestión de usuarios
 
-# \- Registro de usuarios.
+\### Compras y abastecimiento
 
-# \- Acceso mediante autenticación.
+\- Gestión de procesos de compras.
 
-# \- Almacenamiento local de información.
+\- Control de abastecimiento.
 
-# 
+\- Organización de información logística.
 
-# \*La disponibilidad de cada funcionalidad depende de los módulos implementados en la versión instalada.\*
 
-# 
 
-# \## 3. Arquitectura tecnológica
+\### Despachos y distribución
 
-# 
+\- Gestión de despachos.
 
-# | Tecnología | Aplicación |
+\- Seguimiento de operaciones de distribución.
 
-# |---|---|
+\- Control de información de transporte.
 
-# | Java | Lenguaje de programación |
 
-# | Android Studio | Entorno de desarrollo |
 
-# | SQLite | Base de datos local |
+\### Gestión de usuarios
 
-# | XML | Diseño de interfaces Android |
+\- Registro de usuarios.
 
-# | Git | Control de versiones |
+\- Acceso mediante autenticación.
 
-# | GitHub | Repositorio de código fuente |
+\- Almacenamiento local de información.
 
-# 
 
-# \## 4. Características técnicas
 
-# 
+\*La disponibilidad de cada funcionalidad depende de los módulos implementados en la versión instalada.\*
 
-# \- Aplicación nativa Android.
 
-# \- Arquitectura orientada al funcionamiento offline.
 
-# \- Persistencia de datos mediante SQLite.
+\## 3. Arquitectura tecnológica
 
-# \- Almacenamiento local en el dispositivo.
 
-# \- Interfaz gráfica de diseño corporativo.
 
-# \- Distribución mediante APK firmado.
+| Tecnología | Aplicación |
 
-# \- No requiere conexión a servidores externos para sus funciones locales.
+|---|---|
 
-# 
+| Java | Lenguaje de programación |
 
-# \## 5. Instalación
+| Android Studio | Entorno de desarrollo |
 
-# 
+| SQLite | Base de datos local |
 
-# \### Requisitos
+| XML | Diseño de interfaces Android |
 
-# \- Dispositivo compatible con Android.
+| Git | Control de versiones |
 
-# \- Archivo APK firmado.
+| GitHub | Repositorio de código fuente |
 
-# \- Espacio de almacenamiento disponible.
 
-# 
 
-# \### Procedimiento
+\## 4. Características técnicas
 
-# 1\. Descargar el archivo APK.
 
-# 2\. Habilitar la autorización de instalación desde la fuente utilizada, si Android lo solicita.
 
-# 3\. Ejecutar el instalador.
+\- Aplicación nativa Android.
 
-# 4\. Completar la instalación.
+\- Arquitectura orientada al funcionamiento offline.
 
-# 5\. Abrir LOGISTICS desde el dispositivo.
+\- Persistencia de datos mediante SQLite.
 
-# 
+\- Almacenamiento local en el dispositivo.
 
-# \## 6. Estructura del proyecto
+\- Interfaz gráfica de diseño corporativo.
 
-# 
+\- Distribución mediante APK firmado.
 
-# ```text
+\- No requiere conexión a servidores externos para sus funciones locales.
 
-# LOGISTICS/
 
-# │
 
-# ├── app/
+\## 5. Instalación
 
-# │   └── src/
 
-# │       └── main/
 
-# │           ├── java/
+\### Requisitos
 
-# │           ├── res/
+\- Dispositivo compatible con Android.
 
-# │           └── AndroidManifest.xml
+\- Archivo APK firmado.
 
-# │
+\- Espacio de almacenamiento disponible.
 
-# ├── gradle/
 
-# ├── .gitignore
 
-# ├── README.md
+\### Procedimiento
 
-# ├── CHANGELOG.md
+1\. Descargar el archivo APK.
 
-# ├── build.gradle.kts
+2\. Habilitar la autorización de instalación desde la fuente utilizada, si Android lo solicita.
 
-# └── settings.gradle.kts
+3\. Ejecutar el instalador.
 
-# ```
+4\. Completar la instalación.
 
-# 
+5\. Abrir LOGISTICS desde el dispositivo.
 
-# \## 7. Versionamiento
 
-# 
 
-# \*\*Versión inicial: 1.0.0\*\*
+\## 6. Estructura del proyecto
 
-# 
 
-# Estado: Primera versión funcional.
 
-# 
+```text
 
-# \- Aplicación Android compilada.
+LOGISTICS/
 
-# \- APK firmado generado.
+│
 
-# \- Instalación comprobada en dispositivo Android.
+├── app/
 
-# \- Persistencia local mediante SQLite.
+│   └── src/
 
-# \- Funcionamiento sin conexión a Internet.
+│       └── main/
 
-# 
+│           ├── java/
 
-# \## 8. Seguridad y distribución
+│           ├── res/
 
-# 
+│           └── AndroidManifest.xml
 
-# El proyecto utiliza almacenamiento local en el dispositivo.
+│
 
-# 
+├── gradle/
 
-# La firma digital de la aplicación se conserva de manera independiente para permitir futuras actualizaciones.
+├── .gitignore
 
-# 
+├── README.md
 
-# Los archivos de firma, contraseñas y credenciales privadas no deben incorporarse al repositorio GitHub.
+├── CHANGELOG.md
 
-# 
+├── build.gradle.kts
 
-# \## 9. Autor
+└── settings.gradle.kts
 
-# 
+```
 
-# \*\*Ing. Miguel Chavez\*\*
 
-# 
 
-# Ingeniero Industrial | Supply Chain | Logistics | Operations | Digital Transformation
+\## 7. Versionamiento
 
-# 
 
-# Proyecto de desarrollo tecnológico orientado a la transformación digital de las operaciones logísticas.
 
-# 
+\*\*Versión inicial: 1.0.0\*\*
 
-# \## 10. Propiedad intelectual
 
-# 
 
-# LOGISTICS es un proyecto de propiedad privada.
+Estado: Primera versión funcional.
 
-# 
 
-# Este repositorio no incluye una licencia de código abierto. No se concede autorización para copiar, modificar, distribuir o comercializar el código fuente sin autorización expresa del titular.
 
-# 
+\- Aplicación Android compilada.
 
-# \---
+\- APK firmado generado.
 
-# 
+\- Instalación comprobada en dispositivo Android.
 
-# \*\*LOGISTICS – Android Logistics Management System\*\*
+\- Persistencia local mediante SQLite.
 
-# 
+\- Funcionamiento sin conexión a Internet.
 
-# \*Transformando la gestión logística mediante tecnología, automatización y control operacional.\*
+
+
+\## 8. Seguridad y distribución
+
+
+
+El proyecto utiliza almacenamiento local en el dispositivo.
+
+
+
+La firma digital de la aplicación se conserva de manera independiente para permitir futuras actualizaciones.
+
+
+
+Los archivos de firma, contraseñas y credenciales privadas no deben incorporarse al repositorio GitHub.
+
+
+
+\## 9. Autor
+
+
+
+\*\*Ing. Miguel Chavez\*\*
+
+
+
+Ingeniero Industrial | Supply Chain | Logistics | Operations | Digital Transformation
+
+
+
+Proyecto de desarrollo tecnológico orientado a la transformación digital de las operaciones logísticas.
+
+
+
+\## 10. Propiedad intelectual
+
+
+
+LOGISTICS es un proyecto de propiedad privada.
+
+
+
+Este repositorio no incluye una licencia de código abierto. No se concede autorización para copiar, modificar, distribuir o comercializar el código fuente sin autorización expresa del titular.
+
+
+
+\---
+
+
+
+\*\*LOGISTICS – Android Logistics Management System\*\*
+
+
+
+\*Transformando la gestión logística mediante tecnología, automatización y control operacional.\*
 
