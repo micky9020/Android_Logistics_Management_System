@@ -31,3 +31,19 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Archivos de instalación Android
+*.apk
+*.aab
+
+# Claves de firma digital
+*.jks
+*.keystore
+
+# Configuraciones privadas
+secrets.properties
+local.properties
+
+# Archivos temporales
+build/
+.gradle/

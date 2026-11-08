@@ -1,0 +1,15 @@
+# LOGISTICS - CHANGELOG
+
+Historial de versiones y actualizaciones.
+
+## Version 1.0.0
+- Initial release of LOGISTICS.
+- Android application developed in Java.
+- Local SQLite database.
+- Offline operation.
+- Inventory management.
+- Warehouse management.
+- Picking and Packing.
+- Purchases and supplies.
+- Dispatch management.
+- Corporate user interface.
